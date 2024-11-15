@@ -1,0 +1,38 @@
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 100px 20px;
+    padding-top:0px;
+    background-color: #fff1eb;
+    border: 2PX solid black;
+    border-radius: 20PX;
+}
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+}
+p{
+    text-align: center;
+    font-size: 2em;
+    font-weight:bolder;
+    font-family: "Segoe Script";
+    color: rgb(116, 93, 211);
+}
+
+.btnContainer{
+    text-align: center;
+}
+.buttons{
+    font-size: 1.5em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(183, 186, 231);
+    color: white;
+    cursor: pointer;
+    transition:background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(91, 91, 223);
+}
